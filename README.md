@@ -14,11 +14,11 @@ config_pg = {
   'server' : '0.0.0.0',   # DB server ip
   'tablename': 'table_name',   # Table name to work with, appending records or creating a new one
   'port': database_port,  # Database Port number
-  'dbname':'database_bane',  # Database name
+  'dbname':'database_name',  # Database name
   'schema':'public',   # database schema
-  'username':'postgres',  # database username
-  'password':'secret',   # database password
-  'dataframe':WQ_subset,  # pnadas dataframe to insert to database
+  'username':'username',  # database username
+  'password':'password',   # database password
+  'dataframe':df_name,  # pnadas dataframe to insert to database
   'mode':'replace'   # 'replace' if replacing existing table or creating new, 'append' if appending records to existing table
 }
 
