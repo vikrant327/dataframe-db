@@ -2,8 +2,8 @@ from setuptools import setup
 
 setup(
     # Needed to silence warnings (and to be a worthwhile package)
-    name='dataframe-db',
-    url='https://github.com/vikrant327/dataframe-db',
+    name='dataframedb',
+    url='https://github.com/vikrant327/dataframedb',
     author='vikrant327',
     # Needed to actually package something
     packages=['dataframedb'],
