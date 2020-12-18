@@ -8,7 +8,7 @@ setup(
     # Needed to actually package something
     packages=['dataframedb'],
     # Needed for dependencies
-    install_requires=['sqlalchemy'],
+    install_requires=['sqlalchemy','pyodbc'],
     # *strongly* suggested for sharing
     version='1.0.0',
     # The license can be anything you like
