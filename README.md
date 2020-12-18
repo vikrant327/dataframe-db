@@ -4,6 +4,10 @@ Dataframe to SQL database table. Tool was orginally configured to work with Post
 # Installation
 pip install git+https://github.com/vikrant327/dataframedb
 
+# on Jupyter Notebook
+!pip install git+https://github.com/vikrant327/dataframedb
+
+
 # Usage
 ```sh
 from dataframedb.PGSqlAlchemy import PGSqlAlchemy
